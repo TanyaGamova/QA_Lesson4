@@ -8,7 +8,6 @@ public class Main {
 
         while ( scanner.hasNext() )
         {
-            System.out.flush();
             String expr = scanner.nextLine();
             if ( expr.equals( "exit" ) )
                 break;
